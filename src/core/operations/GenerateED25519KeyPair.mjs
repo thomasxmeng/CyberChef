@@ -19,7 +19,7 @@ import { cryptNotice } from "../lib/Crypt.mjs";
         this.name = "Generate ED25519 Key Pair";
         this.module = "Ciphers";
         this.description = `Generate an ED25519 key pair with a given number of bits.<br><br>${cryptNotice}`;
-        this.infoURL = "https://wikipedia.org/wiki/RSA_(cryptosystem)";
+        this.infoURL = "https://en.wikipedia.org/wiki/EdDSA";
         this.inputType = "string";
         this.outputType = "string";
         this.args = [
